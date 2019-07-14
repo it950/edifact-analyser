@@ -8,7 +8,7 @@ class MyHTMLParser(HTMLParser):
         self.links=[]
 
     def openFile(self):
-        with open('/Users/makai5/Downloads/edifact-orders.html','r',encoding="utf-8") as f:
+        with open('/Users/ceshi/Downloads/edifact-orders.html','r',encoding="utf-8") as f:
             content = f.read()
             self.htmlcontent = content
 
